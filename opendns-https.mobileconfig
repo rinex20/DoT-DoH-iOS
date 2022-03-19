@@ -3,13 +3,13 @@
 <plist version="1.0">
     <dict>
         <key>PayloadDisplayName</key>
-        <string>diyCloudflareDoH</string>
+        <string>diyOpenDNSDoH</string>
         <key>PayloadIdentifier</key>
-        <string>com.diy.dns.diyCloudflareDoH</string>
+        <string>com.diy.dns.diyOpenDNSDoH</string>
         <key>PayloadUUID</key>
-        <string>1B714ABA-85D9-40F6-87E0-0F50BBBE8FB1</string>
+        <string>9877ACF3-420D-4E25-B3B8-96C8EB82A907</string>
         <key>PayloadDescription</key>
-        <string>Cloudflare DNS-HTTPS</string>
+        <string>OpenDNS DNS-HTTPS</string>
         <key>PayloadRemovalDisallowed</key>
         <false/>
         <key>PayloadVersion</key>
@@ -20,13 +20,13 @@
         <array>
             <dict>
                 <key>PayloadDisplayName</key>
-                <string>Cloudflare DNS-HTTPS</string>
+                <string>OpenDNS DNS-HTTPS</string>
                 <key>PayloadType</key>
                 <string>com.apple.dnsSettings.managed</string>
                 <key>PayloadIdentifier</key>
-                <string>com.apple.dnsSettings.managed.776E1059-3234-4218-95EE-069E55ADF9B0</string>
+                <string>com.apple.dnsSettings.managed.684b6631-98ef-4534-ab68-baa22a4a3b81</string>
                 <key>PayloadUUID</key>
-                <string>D049A92B-D29F-4336-B78A-C3DB511C3A94</string>
+                <string>0fedcb81-3c3d-4604-b90e-12ee51bdaee1</string>
                 <key>PayloadVersion</key>
                 <integer>1</integer>
                 <key>ProhibitDisablement</key>
@@ -37,13 +37,11 @@
                     <string>HTTPS</string>
                     <key>ServerAddresses</key>
                     <array>
-                        <string>1.1.1.1</string>
-                        <string>1.0.0.1</string>
-                        <string>2606:4700:4700::1111</string>
-                        <string>2606:4700:4700::1001</string>
+                        <string>208.67.222.222</string>
+                        <string>208.67.220.220</string>
                     </array>
                     <key>ServerURL</key>
-                    <string>https://cloudflare-dns.com/dns-query</string>
+                    <string>https://doh.opendns.com/dns-query</string>
                 </dict>
             </dict>
         </array>
